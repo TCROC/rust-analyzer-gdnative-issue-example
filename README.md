@@ -4,7 +4,7 @@ This folder illustrates the issue.  If you open it in vs code: https://github.co
 
 ![image](https://github.com/TCROC/rust-analyzer-gdnative-issue-example/assets/24307049/001b8cab-738b-4886-855b-ef5a202a6ee3)
 
-Cargo.tmpl
+Cargo.toml
 
 ```toml
 [package]
@@ -30,6 +30,8 @@ gdnative-bindings = { version = "0.11.3", features = [ "one-class-one-file" ] }
 Then the generated rust code will be broken up into multiple files instead of compressed in one file.  Now the rust-analyzer works properly:
 
 ![image](https://github.com/TCROC/rust-analyzer-gdnative-issue-example/assets/24307049/420282ec-1e9c-4cd7-8484-8120339cdc83)
+
+Cargo.toml
 
 ```Cargo.toml
 [package]
