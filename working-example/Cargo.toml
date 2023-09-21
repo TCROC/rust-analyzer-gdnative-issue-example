@@ -6,3 +6,5 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+gdnative = "0.11.3"
+gdnative-bindings = { version = "0.11.3", features = [ "one-class-one-file" ] }
